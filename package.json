@@ -1,0 +1,18 @@
+{
+  "name": "chat-global-termux",
+  "version": "1.0.0",
+  "description": "Chat Global >
+  "main": "chat.js",
+  "bin": {
+    "chat": "./chat.js"
+  },
+  "scripts": {
+    "start": "node chat.js"
+  },
+  "keywords": ["chat", "cli", "termux", "global"],
+  "author": "NexaDev",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
+}
